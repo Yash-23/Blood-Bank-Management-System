@@ -1,0 +1,29 @@
+{
+  "name": "dbmsproject",
+  "version": "1.0.0",
+  "description": "DBMS Project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start-local": "node -r dotenv/config index.js dotenv_config_path=.env.local",
+    "start-local-nodemon": "nodemon -r dotenv/config index.js dotenv_config_path=.env.local"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pekka-dev/blood-bank-manager.git"
+  },
+  "author": "pekka-dev,yash,yavisth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pekka-dev/blood-bank-manager/issues"
+  },
+  "homepage": "https://github.com/pekka-dev/blood-bank-manager#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "firebase-admin": "^9.6.0",
+    "mongoose": "^5.12.5"
+  }
+}
